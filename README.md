@@ -6,10 +6,11 @@ Relevant [blog post](https://cloudbytes.dev/articles/run-selenium-in-aws-lambda-
 You need AWS SAM CLI installed and AWS credentials configured.
 
 Open your terminal and run the following command to clone the [repository](https://github.com/rehanhaider/selenium-in-aws-lambda).
-Or for selenium <4.0 clone: [repository]https://github.com/leiforion/selenium-in-aws-lambda
 ```git
 git clone https://github.com/rehanhaider/selenium-in-aws-lambda.git
 ```
+
+NOTE: Selenium 4.0+ will generally break with the original repo- clone this repo for compatible earlier selenium version
 
 Navigate to the app directory. 
 
